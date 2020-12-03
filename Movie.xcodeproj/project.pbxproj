@@ -11,6 +11,9 @@
 		4546524825787F34009EE2D9 /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4546524725787F34009EE2D9 /* ListVC.swift */; };
 		4546525525787F51009EE2D9 /* ListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4546525425787F51009EE2D9 /* ListVM.swift */; };
 		4546525A257880D1009EE2D9 /* BaseVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45465259257880D1009EE2D9 /* BaseVM.swift */; };
+		4546526425788A1D009EE2D9 /* APIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4546526325788A1D009EE2D9 /* APIConfiguration.swift */; };
+		4546526C25788A7C009EE2D9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4546526B25788A7C009EE2D9 /* Constants.swift */; };
+		4546527125788C7C009EE2D9 /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4546527025788C7C009EE2D9 /* APIRouter.swift */; };
 		45A5B685257870EA00CD4986 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A5B684257870EA00CD4986 /* AppDelegate.swift */; };
 		45A5B687257870EA00CD4986 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A5B686257870EA00CD4986 /* SceneDelegate.swift */; };
 		45A5B68C257870EA00CD4986 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45A5B68A257870EA00CD4986 /* Main.storyboard */; };
@@ -45,6 +48,9 @@
 		4546524725787F34009EE2D9 /* ListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
 		4546525425787F51009EE2D9 /* ListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVM.swift; sourceTree = "<group>"; };
 		45465259257880D1009EE2D9 /* BaseVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVM.swift; sourceTree = "<group>"; };
+		4546526325788A1D009EE2D9 /* APIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfiguration.swift; sourceTree = "<group>"; };
+		4546526B25788A7C009EE2D9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4546527025788C7C009EE2D9 /* APIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
 		45A5B681257870EA00CD4986 /* Movie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Movie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45A5B684257870EA00CD4986 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45A5B686257870EA00CD4986 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -122,6 +128,9 @@
 		454652622578850A009EE2D9 /* Configs */ = {
 			isa = PBXGroup;
 			children = (
+				4546526325788A1D009EE2D9 /* APIConfiguration.swift */,
+				4546526B25788A7C009EE2D9 /* Constants.swift */,
+				4546527025788C7C009EE2D9 /* APIRouter.swift */,
 			);
 			path = Configs;
 			sourceTree = "<group>";
@@ -432,11 +441,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4546525525787F51009EE2D9 /* ListVM.swift in Sources */,
+				4546527125788C7C009EE2D9 /* APIRouter.swift in Sources */,
 				4546524825787F34009EE2D9 /* ListVC.swift in Sources */,
 				45A5B685257870EA00CD4986 /* AppDelegate.swift in Sources */,
 				45A5B687257870EA00CD4986 /* SceneDelegate.swift in Sources */,
 				4546523825787E9D009EE2D9 /* BaseVC.swift in Sources */,
+				4546526425788A1D009EE2D9 /* APIConfiguration.swift in Sources */,
 				4546525A257880D1009EE2D9 /* BaseVM.swift in Sources */,
+				4546526C25788A7C009EE2D9 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
