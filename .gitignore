@@ -1,0 +1,16 @@
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata
+
+
+/.bundle/
+!Gemfile.lock
+
+*~.nib
+
+xcuserdata
+
+
+.DS_Store
+.AppleDouble
+.LSOverride
